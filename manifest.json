@@ -1,0 +1,14 @@
+{
+    "manifest_version" : 2,
+    "name" : "hello-world",
+    "version" : "1.0",
+    "description" : "a hello world app",
+    "browser_action" : {
+        "default_icon":"ico.png",
+        "default_popup":"popup.html"
+    },
+    "permissions" : [
+        "storage",
+        "notifications"
+    ]
+}
